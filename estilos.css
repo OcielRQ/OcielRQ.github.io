@@ -1,0 +1,34 @@
+body {
+	font-family: Times New Roman;
+	background: #ccc;
+	width: 80%;
+	margin: 20px auto;
+}
+/*
+eliminar las viñetas 
+eliminar subrayado de los enlaces */
+header {
+	background-color: #303030;
+	color: #fff;
+	padding: 20px;
+}
+header ul {
+	list-style: none;
+	}
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+}	
+header ul li a:hover {
+	background-color: #ef8354;
+}
+main {
+     background-color: #fff;
+     padding: 20px; 
+	}
+	footer {
+		background-color: #303030;
+		color: #fff;
+		padding: 10px;
+	}
